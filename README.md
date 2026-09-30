@@ -1,5 +1,7 @@
 # amr-diagnostics
 
+![tests](https://github.com/samsaji0127/amr-diagnostics/actions/workflows/tests.yml/badge.svg)
+
 Small, dependency-free Python toolkit for AMR validation:
 
 - **LiDAR scan health**: dropout percentage, isolated range spikes, min/max/mean range
