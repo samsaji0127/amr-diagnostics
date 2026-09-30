@@ -23,3 +23,11 @@ Exit code is `0` when healthy and `1` on a fault, so it drops straight into CI o
 pip install pytest
 pytest -q
 ```
+
+## BMS check
+
+```bash
+python -m amrdiag bms pack.csv   # columns: t,voltage,current
+```
+
+Flags voltage sags below `--v-min` (default 42 V) and estimates internal resistance from load steps.
