@@ -31,3 +31,11 @@ python -m amrdiag bms pack.csv   # columns: t,voltage,current
 ```
 
 Flags voltage sags below `--v-min` (default 42 V) and estimates internal resistance from load steps.
+
+## BMS check
+
+```bash
+python -m amrdiag bms pack.csv   # columns: t,voltage,current
+```
+
+Flags voltage sags below `--v-min` (default 42 V) and estimates internal resistance from load steps.
